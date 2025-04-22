@@ -41,4 +41,9 @@ abstract class BaseDateTimeMicroWithTz extends Type
             )
         );
     }
+
+    public function requiresSQLCommentHint(AbstractPlatform $platform): bool
+    {
+        return true;
+    }
 }

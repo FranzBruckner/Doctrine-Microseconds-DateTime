@@ -1,5 +1,8 @@
 # Microseconds DateTime Support for Doctrine
 
+## Difference to the original version
+Just added requires requiresSQLCommentHint
+https://github.com/owlcorp/Doctrine-Microseconds-DateTime/issues/1
 
 ## What is this about?
 This library has no fancy logo. It also lacks all cool badges, but what it has is a simple & ready-to-use implementation
